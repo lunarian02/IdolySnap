@@ -5,7 +5,7 @@ A virtual photo diary inspired by idol photocards and daily memories.
 IdolySnap transforms everyday moments into collectible memories through AI-generated characters and personalized photo card experiences.
 
 <p align="center">
-  <img src="docs/idolysnap_overview.png" width="900">
+  <img src="idolysnap_overview.png" width="900">
 </p>
 
 Landing Page: https://idolysnap.com/
