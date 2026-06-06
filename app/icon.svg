@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0030"/>
+      <stop offset="100%" stop-color="#0d0018"/>
+    </linearGradient>
+    <linearGradient id="idolyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFA7C4"/>
+      <stop offset="50%"  stop-color="#C4A8E8"/>
+      <stop offset="100%" stop-color="#A8C8F0"/>
+    </linearGradient>
+    <linearGradient id="snapGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#C4A8E8"/>
+      <stop offset="100%" stop-color="#FFB8D0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#E8A0D0" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <!-- Sparkle top-left -->
+  <path d="M90 90 L93 80 L96 90 L106 93 L96 96 L93 106 L90 96 L80 93Z" fill="#FFD0E8" opacity="0.6"/>
+  <!-- Sparkle top-right -->
+  <path d="M422 78 L425 68 L428 78 L438 81 L428 84 L425 94 L422 84 L412 81Z" fill="#D0C0F0" opacity="0.5"/>
+  <!-- IDOLY text -->
+  <text x="256" y="228" text-anchor="middle"
+    font-family="Fredoka, Nunito, sans-serif"
+    font-size="104" font-weight="700" letter-spacing="6"
+    filter="url(#glow)" fill="url(#idolyGrad)">IDOLY</text>
+  <!-- Divider -->
+  <line x1="148" y1="256" x2="364" y2="256"
+    stroke="#C4A8E8" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- Heart -->
+  <path d="M256 251 C253 246,247 246,247 251 C247 255,256 261,256 261 C256 261,265 255,265 251 C265 246,259 246,256 251Z"
+    fill="#F5A0C0" opacity="0.5"/>
+  <!-- SNAP text -->
+  <text x="256" y="328" text-anchor="middle"
+    font-family="Fredoka, Nunito, sans-serif"
+    font-size="60" font-weight="600" letter-spacing="18"
+    filter="url(#glow)" fill="url(#snapGrad)">SNAP</text>
+</svg>
